@@ -2,7 +2,7 @@ extends /master.pug
 block content
 	- var currentUrl = 'alerts.html'
 	section
-		.container
+		.container-fluid
 			.row
 				.col-md-12
 					.row
@@ -46,9 +46,6 @@ block content
 									.alert.alert-dark(role='alert')
 										strong Dark alert!
 										|  This is a light alert-check it out!
-									.alert.alert-inverse(role='alert')
-										strong Inverted!
-										|  This inverse alert is another addition to the group.
 								.panel-footer
 									.html-code
 										pre

@@ -9,88 +9,94 @@
 
 // Theme Fonts
 //-------------------------------------------------
-@import url('https://fonts.googleapis.com/css?family=Cormorant:300i|Lato:300|Parisienne')
+@import url('https://fonts.googleapis.com/css?family=Cormorant:300,300i,400,400i,500,500i,600,600i,700,700i|Lato:300|Parisienne')
+
 
 $font1: 'Cormorant', serif
 $font2: 'Parisienne', cursive
 $font3: 'Lato', sans-serif
 
 .primary-color-bg
-    background: $primary-color
+	background: $primary-color
 .secondary-color-bg
-    background: $secondary-color
+	background: $secondary-color
 .complementary-color-bg
-    background: $complementary-color
+	background: $complementary-color
 .grey-bg
-    background: $light-grey
+	background: $light-grey
 
 
 // Main Styles
 //-------------------------------------------------
 
 body 
-    background-color: #fff
-    font-family: $font1
-    font-size: 1.2rem
-    color: #000000
+	background-color: #fff
+	font-family: $font1
+	font-size: 1.2rem
+	color: #000000
 
 a
-    color: #000000
-    text-decoration: none
-    &:hover
-        color: $complementary-color
-        text-decoration: none
+	color: #000000
+	text-decoration: none
+	&:hover
+		color: $complementary-color
+		text-decoration: none
 a.btn
-    margin: 5px
+	margin: 5px
 
 p 
-    margin-top: 10px
-    margin-bottom: 15px
-    font-size: 1.3rem
-    line-height: 1.5rem
+	margin-top: 10px
+	margin-bottom: 15px
+	font-size: 1.3rem
+	line-height: 1.5rem
 p.font-3
-    font-size: 1rem
-    line-height: 1.2rem
+	font-size: 1rem
+	line-height: 1.2rem
 h1
-    font-size: 3.5rem
+	font-size: 3.5rem
 h2
-    font-size: 2.5rem
+	font-size: 2.5rem
 h3
-    font-size: 2rem
+	font-size: 2rem
 h4
-    font-size: 1.8rem
+	font-size: 1.8rem
 h5
-    font-size: 1.5rem
+	font-size: 1.5rem
 h6
-    font-size: 1.2rem
+	font-size: 1.2rem
 h1.font-1
-    font-size: 2rem
-    
+	font-size: 2rem
+	
 h1,h2,h3,h4,h5,h6
-    font-family: $font2
-    margin-top: 1rem
+	font-family: $font2
+	margin-top: 1rem
 
 @media (max-width: 400px)
-    h1,span.title
-        font-size: 3rem !important
-    
+	h1,span.title
+		font-size: 3rem !important
+	
 section
-    padding: 50px 0
+	padding: 50px 0
 ul
-    padding: 0
-    list-style: none
+	padding: 0
+	list-style: none
 
 @media (max-width: 450px)
-    h1
-        font-size: 2.5rem
-    h2
-        font-size: 2rem
+	h1
+		font-size: 2.5rem
+	h2
+		font-size: 2rem
 
 hr
-    width: 100%
+	width: 100%
 
 // Theme Docs
 .theme-docs-wrapper
+	h1,h4,h5,p
+		font-family: $font3
+	p
+		font-size: 1rem
+
 	.panel
 		margin-bottom: 40px
 		.panel-body
@@ -159,22 +165,22 @@ hr
 // Helpers
 //-------------------------------------------------
 .padding-0
-    padding: 0
+	padding: 0
 .font-1
-    font-family: $font1
+	font-family: $font1
 .font-2
-    font-family: $font2
+	font-family: $font2
 .font-3
-    font-family: $font3
-    font-weight: 300
+	font-family: $font3
+	font-weight: 300
 
 .no-shadow
-    box-shadow: 0 0 transparent !important
+	box-shadow: 0 0 transparent !important
 
 .form-demo
-    padding: 0 20px
+	padding: 0 20px
 a.anchor
-    display: block
-    position: relative
-    top: -100px
-    visibility: hidden
+	display: block
+	position: relative
+	top: -100px
+	visibility: hidden
