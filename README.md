@@ -1,13 +1,13 @@
 # [GOURMET Theme](https://startbootstrap.com/template-overviews/resume/)
 
-[**Gourmet Theme**](https://startbootstrap.com/template-overviews/resume/) is a responsive and light-weight theme. It's easy to use, full commented and with a nice documentation. <br>
- We include only a few plugins. We aim to make a ultra light code to achieve a "zero-slugish", "scroll-lag" feeling and more important to increase the effectiveness of seo positioning practices.
+[**Gourmet Theme**](https://) is a responsive and light-weight theme. It's easy to use, full commented and with a nice documentation. 
+ We include only a few plugins. We aim to make a ultra light code to achieve a "zero-scroll-lag" feeling and more important to increase the effectiveness of seo positioning practices.
 
 ## Preview
 
-[![Resume Preview](https://startbootstrap.com/assets/img/templates/resume.jpg)](https://blackrockdigital.github.io/startbootstrap-resume/)
+[![Resume Preview](https://)](https://)
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-resume/)**
+**[View Live Preview](https://)**
 
 
 ## Usage
@@ -35,4 +35,4 @@ Our templates are released under the MIT license, which means you can use them f
 
 
 ## Copyright and License
-Copyright 2016-2018 Vimana Studio. Code released under the [MIT]
+Copyright 2018 Vimana Studio. Code released under the [MIT]

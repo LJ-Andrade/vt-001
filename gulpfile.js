@@ -5,7 +5,7 @@ autoprefixer = require('gulp-autoprefixer');
 gulp.task('sass', ()=> 
     gulp.src('./scss/*.sass')
     .pipe(sass({
-        outputStyle: 'compressed', 
+        outputStyle: 'nested', 
         sourceComments: false // Comments in the css where the property is in sass
     }))
     .pipe(autoprefixer({

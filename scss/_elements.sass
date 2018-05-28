@@ -1,12 +1,179 @@
-$color: #ccc
-$color2: red
-$color3: blue
+/*-----------------------------------------------------------------------------------
+// Template Name: GOURMET THEME,
+// Template URI: http://
+// Description: Responsive, lightweight and beautiful Html5 Css3 Boostrap4 Template
+// Author: Vimana Studio
+// Author URI: http://
+// Version: 1.0
+-----------------------------------------------------------------------------------
+
+// Theme Fonts
+//-------------------------------------------------
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Quicksand:400,500')
+
+$primary-font: 'Dancing Script', cursive
+$secondary-font: 'Quicksand', sans-serif 
+
+
+// Theme Colors
+//-------------------------------------------------
+$primary-color: #ac2044
+$primary-color-l: #bf3b5d
+$secondary-color: #dabaa0
+$complementary-color: blue
+
+$grey: #989898
+$light-grey: #cccccc
+
+.primary-color-bg
+    background: $primary-color
+.secondary-color-bg
+    background: $secondary-color
+.complementary-color-bg
+    background: $complementary-color
+.grey-bg
+    background: $light-grey
+
+
+// Main Styles
+//-------------------------------------------------
 
 body 
-    background-color: #ccc
+    background-color: #fff
+    font-family: $primary-font
+    font-size: 1.2rem
 p 
     color: #383838
+    margin-top: 10px
+    margin-bottom: 15px
+    font-size: 1.2rem
+h1
+    font-size: 3.5rem
+    margin-top: 0
+    margin-bottom: 15px 
+h2
+    font-size: 2.5rem
+h3
+    font-size: 2rem
+section
+    padding: 50px 10px
+ul
+    padding: 0
 
-span
-    color: $color2
-    border: 1px solid red
+@media (max-width: 450px)
+    h1
+        font-size: 2.5rem
+    h2
+        font-size: 2rem
+
+
+// Carousel
+//-------------------------------------------------
+
+.carousel-home
+    border-bottom: 4px solid #000000
+    .carousel-item
+        max-height: 650px        
+        min-width: 100%
+
+@media (max-width: 1500px)
+    .carousel-home
+        .carousel-item
+            max-height: 450px        
+            min-width: 100%
+
+.carousel-multiple
+    .owl-item
+        background: #ffffff
+        text-align: center
+        padding: 20px
+        img
+            max-width: 100%
+        p
+            line-height: 1.3rem
+        ul
+            list-style: none
+            margin-top: 20px
+            li
+                display: inline
+
+
+// Containers
+//-------------------------------------------------
+
+.centered-banner
+    background: #ffffff
+    .inner
+        text-align: center
+
+
+// Items
+//-------------------------------------------------
+
+.box-item
+    text-align: center
+    margin: 10px 0
+    h2,p
+        color: #000
+    h2
+        margin-top: 10px
+        margin-bottom: 5px
+    p
+        line-height: 1.4rem
+    img.icon
+        max-width: 70px
+    img.divisor
+        width: 100px
+    .box
+        padding: 40px 20px
+        @include transition(1s)
+        &:hover
+            background-color: #f9f9f9
+            box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1)
+
+.parallax-section
+    background: url(../img/parallax.jpg) no-repeat scroll center center / cover
+    background-size: cover
+    .title
+        text-align: center
+        margin-bottom: 40px
+        p,h1
+            color: #fff
+    
+// Decorations
+//-------------------------------------------------
+    
+.text-deco-1
+    color: $grey
+    border-top: 1px solid #000000
+    border-bottom: 1px solid #000000
+    font-family: $secondary-font
+    padding: 1px 0
+    margin-bottom: 10px
+
+.sq-icon
+    padding: 7px 7px 1px
+    border: 1px solid #000000
+    font-size: 1.5rem
+    margin: 3px
+    @include transition(0.2s)
+    &:hover
+        cursor: pointer
+        box-shadow: 5px 5px #ccc
+
+// Buttons
+//-------------------------------------------------
+
+.btn-primary
+    color: #000000
+    background: transparent
+    border: 1px solid #000000
+    box-shadow: 3px 3px #000000
+    border-radius: 0
+    font-size: 1.2rem
+    margin: 2px
+    &:hover
+        color: #000000
+        background: #f9f9f9
+        border: 1px solid #000000
+        box-shadow: 1px 1px #000000

@@ -1,1 +1,164 @@
-body{background-color:#ccc}p{color:#383838}span{color:red;border:1px solid red}
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Quicksand:400,500");
+.primary-color-bg {
+  background: #ac2044; }
+
+.secondary-color-bg {
+  background: #dabaa0; }
+
+.complementary-color-bg {
+  background: blue; }
+
+.grey-bg {
+  background: #cccccc; }
+
+body {
+  background-color: #fff;
+  font-family: "Dancing Script", cursive;
+  font-size: 1.2rem; }
+
+p {
+  color: #383838;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 1.2rem; }
+
+h1 {
+  font-size: 3.5rem;
+  margin-top: 0;
+  margin-bottom: 15px; }
+
+h2 {
+  font-size: 2.5rem; }
+
+h3 {
+  font-size: 2rem; }
+
+section {
+  padding: 50px 10px; }
+
+ul {
+  padding: 0; }
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 2.5rem; }
+  h2 {
+    font-size: 2rem; } }
+
+.carousel-home {
+  border-bottom: 4px solid #000000; }
+  .carousel-home .carousel-item {
+    max-height: 650px;
+    min-width: 100%; }
+
+@media (max-width: 1500px) {
+  .carousel-home .carousel-item {
+    max-height: 450px;
+    min-width: 100%; } }
+
+.carousel-multiple .owl-item {
+  background: #ffffff;
+  text-align: center;
+  padding: 20px; }
+  .carousel-multiple .owl-item img {
+    max-width: 100%; }
+  .carousel-multiple .owl-item p {
+    line-height: 1.3rem; }
+  .carousel-multiple .owl-item ul {
+    list-style: none;
+    margin-top: 20px; }
+    .carousel-multiple .owl-item ul li {
+      display: inline; }
+
+.centered-banner {
+  background: #ffffff; }
+  .centered-banner .inner {
+    text-align: center; }
+
+.box-item {
+  text-align: center;
+  margin: 10px 0; }
+  .box-item h2, .box-item p {
+    color: #000; }
+  .box-item h2 {
+    margin-top: 10px;
+    margin-bottom: 5px; }
+  .box-item p {
+    line-height: 1.4rem; }
+  .box-item img.icon {
+    max-width: 70px; }
+  .box-item img.divisor {
+    width: 100px; }
+  .box-item .box {
+    padding: 40px 20px;
+    -webkit-transition: all 1s ease 0s;
+    transition: all 1s ease 0s; }
+    .box-item .box:hover {
+      background-color: #f9f9f9;
+      -webkit-box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1); }
+
+.parallax-section {
+  background: url(../img/parallax.jpg) no-repeat scroll center center/cover;
+  background-size: cover; }
+  .parallax-section .title {
+    text-align: center;
+    margin-bottom: 40px; }
+    .parallax-section .title p, .parallax-section .title h1 {
+      color: #fff; }
+
+.text-deco-1 {
+  color: #989898;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  font-family: "Quicksand", sans-serif;
+  padding: 1px 0;
+  margin-bottom: 10px; }
+
+.sq-icon {
+  padding: 7px 7px 1px;
+  border: 1px solid #000000;
+  font-size: 1.5rem;
+  margin: 3px;
+  -webkit-transition: all 0.2s ease 0s;
+  transition: all 0.2s ease 0s; }
+  .sq-icon:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 5px 5px #ccc;
+    box-shadow: 5px 5px #ccc; }
+
+.btn-primary {
+  color: #000000;
+  background: transparent;
+  border: 1px solid #000000;
+  -webkit-box-shadow: 3px 3px #000000;
+  box-shadow: 3px 3px #000000;
+  border-radius: 0;
+  font-size: 1.2rem;
+  margin: 2px; }
+  .btn-primary:hover {
+    color: #000000;
+    background: #f9f9f9;
+    border: 1px solid #000000;
+    -webkit-box-shadow: 1px 1px #000000;
+    box-shadow: 1px 1px #000000; }
+
+.navbar {
+  padding: .5rem 4rem; }
+  .navbar .navbar-nav li a {
+    color: #000000; }
+  .navbar .navbar-nav .dropdown-menu {
+    background: #ac2044;
+    border-radius: 0;
+    border: 0;
+    left: -30px;
+    padding: 10px 10px;
+    margin-top: 20px; }
+    .navbar .navbar-nav .dropdown-menu a {
+      font-size: 1.2rem;
+      color: #fff;
+      border-bottom: 2px solid #dabaa0; }
+    .navbar .navbar-nav .dropdown-menu .dropdown-item:hover, .navbar .navbar-nav .dropdown-menu .dropdown-item:active, .navbar .navbar-nav .dropdown-menu .dropdown-item:focus {
+      background-color: #bf3b5d; }
+  .navbar .navbar-nav .dropdown-toggle::after {
+    color: #ac2044; }
