@@ -79,18 +79,43 @@ hr {
     min-width: 100%; } }
 
 .carousel-multiple .owl-item {
-  background: #ffffff;
-  text-align: center;
-  padding: 20px; }
+  text-align: center; }
   .carousel-multiple .owl-item img {
     max-width: 100%; }
-  .carousel-multiple .owl-item p {
-    line-height: 1.3rem; }
-  .carousel-multiple .owl-item ul {
+
+.carousel-multiple .inner {
+  background: #ffffff;
+  padding: 10px; }
+  .carousel-multiple .inner p, .carousel-multiple .inner h3 {
+    color: #000; }
+  .carousel-multiple .inner ul {
     list-style: none;
     margin-top: 20px; }
-    .carousel-multiple .owl-item ul li {
-      display: inline; }
+    .carousel-multiple .inner ul li {
+      display: inline;
+      color: #000000; }
+
+.image-and-items {
+  padding: 20px 0; }
+  .image-and-items .items .item {
+    position: relative;
+    padding-left: 50px; }
+    .image-and-items .items .item .icon {
+      position: absolute;
+      top: 0;
+      left: 0; }
+      .image-and-items .items .item .icon img {
+        width: 40px;
+        max-width: 100%; }
+    .image-and-items .items .item p {
+      font-size: 1rem;
+      border-bottom: 1px solid #ccc; }
+    .image-and-items .items .item h6 {
+      margin: 0; }
+
+.menu-section .image {
+  background: url(../img/menu1.jpg) no-repeat scroll center center/cover;
+  background-size: cover; }
 
 .centered-banner {
   background: #ffffff; }
@@ -133,6 +158,14 @@ hr {
   color: #989898;
   border-top: 1px solid #000000;
   border-bottom: 1px solid #000000;
+  font-family: "Quicksand", sans-serif;
+  padding: 1px 0;
+  margin-bottom: 10px; }
+
+.text-deco-1-white {
+  color: #fff;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
   font-family: "Quicksand", sans-serif;
   padding: 1px 0;
   margin-bottom: 10px; }
