@@ -8,7 +8,7 @@ We include a few plugins, only the necessary to look nice, but not getting too c
 > Made by a graphic designer
 
 > * Beautiful Coding \
-> **W3C Validated!** \
+> **W3C Validated!**
 
 > * **Pug** (Html) and **Sass** (Css) \
 > Preprocessor files included 
