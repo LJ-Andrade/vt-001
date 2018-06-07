@@ -1,7 +1,7 @@
 # [CHEFF Theme](https://)
 
 [**Cheff Theme**](https://) is a responsive and light-weight theme. Easy to use. <br>
- We include few plugins, only the necesary to look nice but not getting to complicated. We aim to make an ultra light code to achieve a optimum performance and nice scroll feeling. And more important to increase the effectiveness of seo positioning practices.
+We include a few plugins, only the necessary to look nice, but not getting too complex. We aim to make an ultra light code to achieve an optimum performance and nice scroll feeling. And more important to increase the effectiveness of seo positioning practices.
 
 ## Some features
 > * Beautiful Design \
