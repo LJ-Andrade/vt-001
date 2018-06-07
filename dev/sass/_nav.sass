@@ -4,6 +4,7 @@
     padding: .5rem 4rem
     background-color: transparent
     z-index: 9999
+    @include transition(0.5s)
     .navbar-nav
         li a
             color: #000000  
@@ -30,3 +31,20 @@
             max-width: 100%
             width: 70px
 
+.navbar-solid
+    background-color: #f9f9f9
+    @include transition(0.5s)
+
+@media (max-width: 991px)
+    .navbar
+        padding: 5px 15px
+        .navbar-collapse
+            padding: 15px
+            padding-left: 25px
+            background-color: #ffff
+            margin-top: 15px
+            border: 1px solid rgba(#383838,.5)
+    .navbar-toggler
+        border-radius: 0
+        &:focus
+            border: 1px solid rgba(#383838,.5)

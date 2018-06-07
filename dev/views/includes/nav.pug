@@ -1,5 +1,5 @@
 // Responsive NavBar
-nav.navbar.navbar-expand-lg.navbar-light
+nav.navbar.navbar-expand-lg.navbar-light.fixed-top
     a.navbar-brand(href='/index.html')
         img(src="./img/logo.png", alt="Logo")
     button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
@@ -18,5 +18,5 @@ nav.navbar.navbar-expand-lg.navbar-light
                 a(href="./index.html#Contact").nav-link Contact Us
             li.nav-item.dropdown
                 a(href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false").nav-link.dropdown-toggle Components
-                div(aria-labelledby="navbarDropdownMenuLink").dropdown-menu
+                div.dropdown-menu
                     a(href="theme-components.html").dropdown-item Theme Components

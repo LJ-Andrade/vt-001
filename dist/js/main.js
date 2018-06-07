@@ -85,8 +85,20 @@ $(document).ready(function(){
         type: 'image',
         mainClass: 'mfp-fade'
     });
-
 });
+
+// Show Navbar background on scroll
+// Go to top of page smooth
+$(document).ready(function($){
+    $(window).scroll(function(){
+        if ($(this).scrollTop() > 50) {
+            $('.navbar').addClass('navbar-solid');
+        } else {
+            $('.navbar').removeClass('navbar-solid');
+        }
+    });
+});
+
 
 // Go to top of page smooth
 $(document).ready(function($){

@@ -7,8 +7,8 @@ block content
 	// Bootstrap Carousel
 
 	div#carousel-home.carousel.slide.carousel-home(data-ride="carousel")
-		div.carousel-inner
-			class.carousel-item.active
+		.carousel-inner
+			.carousel-item.active
 				img.d-block.w-100(src="img/slider1.jpg" alt="First slide")
 			div.carousel-item
 				img.d-block.w-100(src="img/slider2.jpg" alt="Second slide")
@@ -21,24 +21,22 @@ block content
 
 	// Intro Text
 	section.centered-banner
-		div.container
-			div.row-centered.inner.wow.fadeIn(data-wow-duration="2s")
+		.container
+			.row-centered.inner.wow.fadeIn(data-wow-duration="2s")
 				h1 Beautiful Responsive
 				span.text-deco-1 BEAUTIFUL RESPONSIVE
 				p libero ex dapibus diam expound the actual teachings of the great explorer of the <br> truthlibero ex dapibus diam expound the actual teachings of the
-				button.btn.btn-primary 
-					a(href="#Contact") Contact Us
-				button.btn.btn-primary 
-					a(href="#Contact") Reserve here
+				a.btn.btn-primary(href="#Contact") Contact Us
+				a.btn.btn-primary(href="#Contact") Reserve here
 
 	// Boxed Items
 	section.grey-bg
-		div.container
-			div.row.wow.fadeIn.padding-0(data-wow-duration='2s' data-wow-delay='0.5s')
+		.container
+			.row.wow.fadeIn.padding-0(data-wow-duration='2s' data-wow-delay='0.5s')
 				- var images = ['img/home-icon1.png', 'img/home-icon2.png', 'img/home-icon3.png']
 				each image in images
-					div.col-xs-12.col-sm-6.col-md-4.box-item
-						div.box
+					.col-xs-12.col-sm-6.col-md-4.box-item
+						.box
 							img.icon(src=image alt='Item Description')
 							h2 CupCakes
 							p
@@ -65,8 +63,8 @@ block content
 								.icon
 									img(src=data[0] alt='')
 								span(data-container='body' data-toggle='popover' data-trigger='hover' data-placement='right' data-content='Vivamus sagittis lacus vel augue laoreet rutrum faucibus.')
-									h6.font-3.text-muted Chinese Chicken Momo
-									p libero ex dapibus diam expound the actual teachings of the great of the truthlibero  of the great of the truthlibero  of the great of the truthlibero
+								h6.font-3.text-muted Chinese Chicken Momo
+								p libero ex dapibus diam expound the actual teachings of the great of the truthlibero  of the great of the truthlibero  of the great of the truthlibero
 
 	// Breakfast Section
 	section.padding-0
@@ -84,8 +82,8 @@ block content
 						each data in menudata
 							.item-left
 								span(data-container='body' data-toggle='popover' data-trigger='hover' data-placement='right' data-content='Vivamus sagittis lacus vel augue laoreet rutrum faucibus.')
-									h6.font-3.text-muted Chinese Chicken Momo
-									p libero ex dapibus diam expound the actual teachings of the great of the truthlibero  of the great of the truthlibero  of the great of the truthlibero
+								h6.font-3.text-muted Chinese Chicken Momo
+								p libero ex dapibus diam expound the actual teachings of the great of the truthlibero  of the great of the truthlibero  of the great of the truthlibero
 								.price
 									span #{data[2]}
 				.col-md-7.image.wow.fadeIn(data-wow-duration='2s' data-wow-delay='0s')
@@ -102,21 +100,21 @@ block content
 					p
 						| But I must explain to you how all this mistaken idea of <br>
 						| denouncing pleasure and praising pain was born.
-		.owl-carousel.carousel-multiple
-			- var multicarousel = [['img/gallery1.jpg', 'Javier Andrad', 'CHEFF INCHARGE', 'libero ex dapibus diam expound the actual teachings of the great explorer'],['img/gallery2.jpg', 'Francis MadMan', 'CHEFF', 'libero ex dapibus diam expound the actual teachings of the great explorer'],['img/gallery3.jpg', 'Gato Dumas', 'CHEFF', 'libero ex dapibus diam expound the actual teachings of the great explorer'],['img/gallery4.jpg', 'Peter Quill', 'CHEFF', 'libero ex dapibus diam expound the actual teachings of the great explorer'],['img/gallery5.jpg', 'Rocket Rackoon', 'EXPERT', 'libero ex dapibus diam expound the actual teachings of the great explorer']]
-			each multicdata in multicarousel
-				.inner
-					img(src=multicdata[0] alt='Carousel Item')
-					h3 #{multicdata[1]}
-					span.text-deco-1 #{multicdata[2]}
-					p #{multicdata[3]}
-					ul
-						li.sq-icon
-							i.fab.fa-facebook-square
-						li.sq-icon
-							i.fab.fa-twitter-square
-						li.sq-icon
-							i.fab.fa-instagram
+			.owl-carousel.carousel-multiple
+				- var multicarousel = [['img/gallery1.jpg', 'Javier Andrad', 'CHEFF INCHARGE', 'libero ex dapibus diam expound the actual teachings of the great explorer'],['img/gallery2.jpg', 'Francis MadMan', 'CHEFF', 'libero ex dapibus diam expound the actual teachings of the great explorer'],['img/gallery3.jpg', 'Gato Dumas', 'CHEFF', 'libero ex dapibus diam expound the actual teachings of the great explorer'],['img/gallery4.jpg', 'Peter Quill', 'CHEFF', 'libero ex dapibus diam expound the actual teachings of the great explorer'],['img/gallery5.jpg', 'Rocket Rackoon', 'EXPERT', 'libero ex dapibus diam expound the actual teachings of the great explorer']]
+				each multicdata in multicarousel
+					.inner
+						img(src=multicdata[0] alt='Carousel Item')
+						h3 #{multicdata[1]}
+						span.text-deco-1 #{multicdata[2]}
+						p #{multicdata[3]}
+						ul
+							li.sq-icon
+								i.fab.fa-facebook-square
+							li.sq-icon
+								i.fab.fa-twitter-square
+							li.sq-icon
+								i.fab.fa-instagram
 
 	// Sorteable Gallery
 	section
@@ -156,8 +154,8 @@ block content
 			.row-centered.text-center
 				.sortable-pricing-filters
 					ul
-						li.btn.btn-secondary.no-shadow.active(data-filter='.first') First
-						li.btn.btn-secondary.no-shadow(data-filter='.second') Second
+						li.btn.btn-primary.no-shadow.active(data-filter='.first') First
+						li.btn.btn-primary.no-shadow(data-filter='.second') Second
 			.row-centered.sortable-pricing-items
 				- var pricing = [['img/gallery1.jpg', 'Pancake', 'first'],['img/gallery2.jpg', 'Cakes', 'first'],['img/gallery3.jpg', 'Other', 'first'],['img/gallery4.jpg', 'Cakes', 'first'],['img/gallery5.jpg', 'Cakes', 'second'],['img/gallery6.jpg', 'Cakes', 'second']]
 				each data in pricing
@@ -170,7 +168,7 @@ block content
 							a.btn.btn-primary(href='#') Order now
 
 	// Social Networks
-	section.padding-0
+	div.padding-0
 		.container-fluid.social-banner
 			.row.inner
 				ul
@@ -191,7 +189,7 @@ block content
 							i.fab.fa-youtube-square
 
 	// Newsletter Banner
-	section.padding-0.newsletter-banner
+	div.padding-0.newsletter-banner
 		.container.justify-content-center
 			.row.inner
 				.col-md-4.col-left
@@ -234,13 +232,13 @@ block content
 
 					form(method='POST')#contact-form.main-form
 						.form-group
-							input.form-control(name='name' type='name' aria-describedby='Name' placeholder='Your Name' required)
+							input.form-control(name='name' type='text' placeholder='Your Name')
 						.form-group
-							input.form-control(name='email' type='email' aria-describedby='Email' placeholder='Your E-mail' required)
+							input.form-control(name='email' type='email' placeholder='Your E-mail')
 						.form-group
-							input.form-control(name='phone' type='phone' aria-describedby='Phone' placeholder='Your Phone' required)
+							input.form-control(name='phone' type='tel' placeholder='Your Phone')
 						.form-group
-							textarea#exampleFormControlTextarea1.form-control(name='message' rows='3' placeholder='Leave us a message' required)
+							textarea#exampleFormControlTextarea1.form-control(name='message' rows='3' placeholder='Leave us a message')
 							small.form-text.text-muted We&apos;ll never share your data with anyone else.
 						button#submit-btn.btn.btn-primary(type='submit') Submit
 					#form-thanks.form-response

@@ -24,6 +24,9 @@ a {
     color: #27051a;
     text-decoration: none; }
 
+a.btn {
+  margin: 5px; }
+
 p {
   margin-top: 10px;
   margin-bottom: 15px;
@@ -101,7 +104,6 @@ hr {
 
 .carousel-home {
   border-bottom: 4px solid #000000;
-  margin-top: -64px;
   z-index: 999; }
   .carousel-home .carousel-item {
     max-height: 650px;
@@ -372,7 +374,9 @@ hr {
 .navbar {
   padding: .5rem 4rem;
   background-color: transparent;
-  z-index: 9999; }
+  z-index: 9999;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s; }
   .navbar .navbar-nav li a {
     color: #000000;
     font-weight: 600;
@@ -395,6 +399,25 @@ hr {
   .navbar .navbar-brand img {
     max-width: 100%;
     width: 70px; }
+
+.navbar-solid {
+  background-color: #f9f9f9;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s; }
+
+@media (max-width: 991px) {
+  .navbar {
+    padding: 5px 15px; }
+    .navbar .navbar-collapse {
+      padding: 15px;
+      padding-left: 25px;
+      background-color: #ffff;
+      margin-top: 15px;
+      border: 1px solid rgba(56, 56, 56, 0.5); }
+  .navbar-toggler {
+    border-radius: 0; }
+    .navbar-toggler:focus {
+      border: 1px solid rgba(56, 56, 56, 0.5); } }
 
 .parallax-section {
   background: url(../img/parallax.jpg) no-repeat scroll center center/cover;
@@ -532,6 +555,11 @@ footer {
     -webkit-box-shadow: 1px 1px #000000;
     box-shadow: 1px 1px #000000; }
 
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #ffffff; }
+
 .btn-secondary {
   color: #ffffff;
   background: #000000;
@@ -549,8 +577,9 @@ footer {
     box-shadow: 1px 1px #000000; }
 
 .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
-  background-color: #000000;
-  border: #000000; }
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000; }
 
 .input-group input, .input-group .input-group-text {
   border-radius: 0; }

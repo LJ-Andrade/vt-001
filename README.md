@@ -3,6 +3,27 @@
 [**Cheff Theme**](https://) is a responsive and light-weight theme. Easy to use. <br>
  We include few plugins, only the necesary to look nice but not getting to complicated. We aim to make an ultra light code to achieve a optimum performance and nice scroll feeling. And more important to increase the effectiveness of seo positioning practices.
 
+## Some features
+> * Beautiful Design \
+> Made by a graphic designer
+
+> * Beautiful Coding \
+> **W3C Validated!** \
+
+> * **Pug** (Html) and **Sass** (Css) \
+> Preprocessor files included 
+
+> * **Bootstrap 4** \
+> Fully responsive
+
+> * **Functional Contact Form** \
+> Works with Ajax
+
+> * Carousel Full width
+> * Carousel Multiple images with content
+
+> * **Sortable image gallery**
+
 ## Basic Usage
 
 >You can just edit the HTML and CSS files included in the `dist` folder using any IDE. We recommend write your styles in the `custom-styles.css` file.
@@ -14,27 +35,27 @@ We include browsersync in gulp config to see changes in real time when files are
 You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
 ## Preprocessors
-> * **Pug** for html <br>
-> * **Sass** for css <br>
+> * **Pug** for html
+> * **Sass** for css
 
 Templates included!
 ## Contact form
-> Fully functional. Sending using ajax. Php logic included in `process.php` file
+> Works with ajax. Logic included in `process.php` 
 
 ## Plungs Included
->* Animations <br>
+>* Animations \
 >**Animate** (https://daneden.github.io/animate.css/)
->* Showing elements on scroll <br>
+>* Showing elements on scroll \
 >**Wowjs** (https://wowjs.uk)
->* Carousel (Slider) <br>
+>* Carousel (Slider) \
 >**Owl-Carousel-2** (https://owlcarousel2.github.io/OwlCarousel2/)
->* Parallax <br>
+>* Parallax \
 >**jQuery Parallax** (https://github.com/IanLunn/jQuery-Parallax)
->* PopOvers <br>
+>* PopOvers \
 >**Popper** (https://popper.js.org/)
->* Sorteable Gallery <br>
+>* Sorteable Gallery \
 >**Isotope** (https://isotope.metafizzy.co)
->* View full screen image <br>
+>* View full screen image \
 >**Magnific-Popup** (http://dimsemenov.com/plugins/magnific-popup/)
 
 ## Next updates

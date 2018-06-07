@@ -1,11 +1,11 @@
 <?php
-    $name     = $_POST['name'];
-    $email    = $_POST['email'];
-    $phone    = $_POST['phone'];
-    $message  = $_POST['message'];
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $phone = $_POST['phone'];
+    $message = $_POST['message'];
             
-    $to    = '<your@email.com>';
-    
+    // $to = '<your@email.com>';
+    $to = 'javzero1@gmail.com';
     // Asunto
     $subject = 'Message from web';
     
