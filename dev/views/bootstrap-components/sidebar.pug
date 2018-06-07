@@ -1,0 +1,35 @@
+//- Side Menu
+.padding-top-3x.hidden-md-up
+    nav.list-group
+        //- Links Array = ['Url', 'Link Name']
+        -
+            var links = [
+                ['accordion.html', 'Acordion'], 
+                ['alerts.html', 'Alerts'], 
+                ['buttons.html', 'Buttons'],
+                ['cards.html', 'Cards'],
+                ['carousel.html', 'Carousel'],
+                ['countdown.html', 'Countdown'],
+                ['forms.html', 'Forms'],
+                ['gallery.html', 'Gallery'],
+                ['google-maps.html', 'Google Maps'],
+                ['images.html', 'Images & Figures'],
+                ['list-group.html', 'List Group'],
+                ['market-social-buttons.html', 'Market & Social Buttons'],
+                ['modal.html', 'Modal'],
+                ['pagination.html', 'Pagination'],
+                ['pills.html', 'Pills'],
+                ['progress-bars.html', 'Progress Bars'],
+                ['shop-items.html', 'Shop Items'],
+                ['tables.html', 'Tables'],
+                ['tabs.html', 'Tabs'],
+                ['team.html', 'Team'],
+                ['toasts.html', 'Toast Notifications'],
+                ['tooltips-popovers.html', 'Tooltips & Popovers'],
+                ['typography.html', 'Typography'],
+                ['video-player.html', 'Video Player'],
+                ['widgets.html', 'Widgets'],
+            ];
+        //- Render Links
+        each link in links
+            a.list-group-item.list-group-item-action(class={active: currentUrl === link[0]} href=link[0]) #{link[1]}

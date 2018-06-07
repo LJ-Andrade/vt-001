@@ -1,0 +1,70 @@
+extends master.pug
+block content
+    section
+        .container
+            .row
+                .col-md-12
+                    .udl-big-title
+                        span THEME COMPONENTS
+                    h5.s-font ▹ Tipography
+                    hr.light-br
+                // Headings
+                .col-md-6.col-lg-6
+                    h6.font-3.text-muted ○ Headings
+                    h1 H1 - Heading
+                    h2 H1 - Heading
+                    h3 H1 - Heading
+                    h4 H1 - Heading
+                    h5
+                        | H1 - Heading
+                        h6 H1 - Heading
+                .col-md-6.col-lg-6
+                    // Parragraphs
+                    h6.s-font.text-muted ○ Parragraph
+                    p
+                        | Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere adipisci veniam, animi fugiat est quasi repudiandae eius
+                        | vitae dolore voluptas quis molestiae inventore libero maxime beatae id enim porro amet.
+                    p.font-3
+                        | Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere adipisci veniam, animi fugiat est quasi repudiandae eius
+                        | vitae dolore voluptas quis molestiae inventore libero maxime beatae id enim porro amet.
+                    // Special Subtitles
+                    h6.font-3.text-muted ○ Special Subtitle
+                    span.text-deco-1 NICE SUBTITLE
+                hr
+                .col-md-6.col-lg-6
+                    // Buttons
+                    h6.font-3.text-muted ○ Buttons
+                    button.btn.btn-primary Primary Button
+                    button.btn.btn-secondary Secondary Button
+                .col-md-6.col-lg-6
+                    // Ornaments
+                    h6.font-3.text-muted ○ Ornaments
+                    img(src='img/divisor.png', alt='Divisor')
+    
+    section.grey-bg
+        .container
+            .row
+                .col-xs-6.col-sm-6.col-md-4.col-lg-3
+                    h4.text-center Card
+                    .item.card(style='width: 18rem;')
+                        img(src='img/gallery1.jpg' alt='Card image cap').card-img-top
+                        .card-body
+                            h4.card-title Test
+                            span.text-deco-1 $ 150 .-
+                            p.card-text Some quick example text to build on the card title.
+                            a.btn.btn-primary(href='#') Order now
+                .col-xs-6.col-sm-6.col-md-8.col-lg-4
+                    h4.text-center Forms
+                    div.form-demo.text-center
+                        form(action='send-mail.php' method='POST')
+                        .form-group
+                            input.form-control(type='name' aria-describedby='emailHelp' placeholder='Your Name')
+                        .form-group
+                            input.form-control(type='email' aria-describedby='emailHelp' placeholder='Your E-mail')
+                        .form-group
+                            input.form-control(type='phone' placeholder='Phone')
+                        .form-group
+                        textarea#exampleFormControlTextarea1.form-control(name='message' rows='3' placeholder='Leave us a message')
+                        small.form-text.text-muted We&apos;ll never share your data with anyone else.
+                        button.btn.btn-primary(type='submit') Submit
+                .col-xs-6.col-sm-6.col-md-8.col-lg-4

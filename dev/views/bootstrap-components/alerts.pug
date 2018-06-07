@@ -1,0 +1,181 @@
+extends /master.pug
+block content    
+    - var currentUrl = 'alerts.html'
+     section
+        .container
+            .row
+                .col-md-12
+                    .udl-big-title
+                        span BOOSTRAP COMPONENTS
+                    h5.s-font ▹ Buttons
+                    hr.light-br
+                    .row
+                        .col-lg-3.col-md-4.pull-lg-9.pull-md-8
+                            //- SIDEBAR
+                            include ../bootstrap-components/sidebar.pug
+                        .col-lg-9.col-md-8.push-lg-3.push-md-4
+                            h6.text-muted.text-normal.text-uppercase Shapes
+                            hr.margin-bottom-1x
+                            button.btn.btn-secondary(type='button') Pill Button
+                            button.btn.btn-rounded.btn-secondary(type='button') Rounded Button
+                            button.btn.btn-square.btn-secondary(type='button') Square Button
+                            h6.text-muted.text-normal.text-uppercase.padding-top-2x Sizes
+                            hr.margin-bottom-1x
+                            button.btn.btn-lg.btn-secondary(type='button') Large Button
+                            button.btn.btn-secondary(type='button') Normal Button
+                            button.btn.btn-sm.btn-secondary(type='button') Small Button
+                            h6.text-muted.text-normal.text-uppercase.padding-top-2x Types & Colors
+                            hr.margin-bottom-1x
+                            a.btn.btn-primary(href='#') Primary
+                            a.btn.btn-secondary(href='#') Secondary
+                            a.btn.btn-success(href='#') Success
+                            a.btn.btn-info(href='#') Info
+                            a.btn.btn-warning(href='#') Warning
+                            a.btn.btn-danger(href='#') Danger
+                            hr.margin-top-1x.margin-bottom-1x
+                            a.btn.btn-outline-primary(href='#') Primary
+                            a.btn.btn-outline-secondary(href='#') Secondary
+                            a.btn.btn-outline-success(href='#') Success
+                            a.btn.btn-outline-info(href='#') Info
+                            a.btn.btn-outline-warning(href='#') Warning
+                            a.btn.btn-outline-danger(href='#') Danger
+                            hr.margin-top-1x.margin-bottom-1x
+                            button.btn.btn-link-primary(type='button') Primary
+                            button.btn.btn-link-secondary(type='button') Secondary
+                            button.btn.btn-link-success(type='button') Success
+                            button.btn.btn-link-info(type='button') Info
+                            button.btn.btn-link-warning(type='button') Warning
+                            button.btn.btn-link-danger(type='button') Danger
+                            h6.text-muted.text-normal.text-uppercase.padding-top-2x White Buttons
+                            hr.margin-bottom-1x
+                            .bg-dark(style='padding: 20px;')
+                                button.btn.btn-white(type='button') White Solid
+                                button.btn.btn-outline-white(type='button') White Outline
+                                button.btn.btn-link-white(type='button') White Link
+                            h6.text-muted.text-normal.text-uppercase.padding-top-2x Disabled State
+                            hr.margin-bottom-1x
+                            button.btn.btn-primary(type='button', disabled='') Primary
+                            button.btn.btn-secondary(type='button', disabled='') Secondary
+                            button.btn.btn-outline-primary(type='button', disabled='') Primary
+                            button.btn.btn-outline-secondary(type='button', disabled='') Secondary
+                            h6.text-muted.text-normal.text-uppercase.padding-top-2x Block Buttons
+                            hr.margin-bottom-1x
+                            .row
+                                .col-sm-4
+                                    button.btn.btn-outline-primary.btn-block(type='button') Block Button
+                                .col-sm-4
+                                    button.btn.btn-outline-primary.btn-block(type='button') Block Button
+                                .col-sm-4
+                                    button.btn.btn-outline-primary.btn-block(type='button') Block Button
+                            h6.text-muted.text-normal.text-uppercase.padding-top-2x Icon Position
+                            hr.margin-bottom-1x
+                            button.btn.btn-outline-primary(type='button')
+                                i.icon-unlock
+                                |  Primary
+                            button.btn.btn-outline-secondary(type='button')
+                                | Secondary 
+                                i.icon-signal
+                            h6.text-muted.text-normal.text-uppercase.padding-top-2x Alignment
+                            hr.margin-bottom-1x
+                            .text-left
+                                button.btn.btn-secondary(type='button') Left Aligned
+                            .text-center
+                                button.btn.btn-secondary(type='button') Center Aligned
+                            .text-right
+                                button.btn.btn-secondary(type='button') Right Aligned
+                            h6.text-muted.text-normal.text-uppercase.padding-top-2x Button Dropdowns
+                            hr.margin-bottom-1x
+                            .btn-group
+                                button.btn.btn-primary.dropdown-toggle(type='button', data-toggle='dropdown') Primary
+                                .dropdown-menu
+                                    a.dropdown-item(href='#') Action
+                                    a.dropdown-item(href='#') Another Action
+                                    a.dropdown-item(href='#') Something else here
+                                    .dropdown-divider
+                                    a.dropdown-item(href='#') Separated link
+                            .btn-group
+                                button.btn.btn-secondary.dropdown-toggle(type='button', data-toggle='dropdown') Secondary
+                                .dropdown-menu
+                                    a.dropdown-item(href='#') Action
+                                    a.dropdown-item(href='#') Another Action
+                                    a.dropdown-item(href='#') Something else here
+                                    .dropdown-divider
+                                    a.dropdown-item(href='#') Separated link
+                            .btn-group
+                                button.btn.btn-outline-primary.dropdown-toggle(type='button', data-toggle='dropdown') Primary
+                                .dropdown-menu
+                                    a.dropdown-item(href='#') Action
+                                    a.dropdown-item(href='#') Another Action
+                                    a.dropdown-item(href='#') Something else here
+                                    .dropdown-divider
+                                    a.dropdown-item(href='#') Separated link
+                            .btn-group
+                                button.btn.btn-outline-secondary.dropdown-toggle(type='button', data-toggle='dropdown') Secondary
+                                .dropdown-menu
+                                    a.dropdown-item(href='#') Action
+                                    a.dropdown-item(href='#') Another Action
+                                    a.dropdown-item(href='#') Something else here
+                                    .dropdown-divider
+                                    a.dropdown-item(href='#') Separated link
+                            h6.text-muted.text-normal.text-uppercase.padding-top-2x Split Button Dropdowns
+                            hr.margin-bottom-1x
+                            .btn-group
+                                button.btn.btn-primary(type='button') Primary
+                                button.btn.btn-primary.dropdown-toggle.dropdown-toggle-split(type='button', data-toggle='dropdown')
+                                    span.sr-only Toggle Dropdown
+                                .dropdown-menu
+                                    a.dropdown-item(href='#') Action
+                                    a.dropdown-item(href='#') Another Action
+                                    a.dropdown-item(href='#') Something else here
+                                    .dropdown-divider
+                                    a.dropdown-item(href='#') Separated link
+                            .btn-group
+                                button.btn.btn-secondary(type='button') Secondary
+                                button.btn.btn-secondary.dropdown-toggle.dropdown-toggle-split(type='button', data-toggle='dropdown')
+                                    span.sr-only Toggle Dropdown
+                                .dropdown-menu
+                                    a.dropdown-item(href='#') Action
+                                    a.dropdown-item(href='#') Another Action
+                                    a.dropdown-item(href='#') Something else here
+                                    .dropdown-divider
+                                    a.dropdown-item(href='#') Separated link
+                            .btn-group
+                                button.btn.btn-outline-primary(type='button') Primary
+                                button.btn.btn-outline-primary.dropdown-toggle.dropdown-toggle-split(type='button', data-toggle='dropdown')
+                                    span.sr-only Toggle Dropdown
+                                .dropdown-menu
+                                    a.dropdown-item(href='#') Action
+                                    a.dropdown-item(href='#') Another Action
+                                    a.dropdown-item(href='#') Something else here
+                                    .dropdown-divider
+                                    a.dropdown-item(href='#') Separated link
+                            .btn-group
+                                button.btn.btn-outline-secondary(type='button') Secondary
+                                button.btn.btn-outline-secondary.dropdown-toggle.dropdown-toggle-split(type='button', data-toggle='dropdown')
+                                    span.sr-only Toggle Dropdown
+                                .dropdown-menu
+                                    a.dropdown-item(href='#') Action
+                                    a.dropdown-item(href='#') Another Action
+                                    a.dropdown-item(href='#') Something else here
+                                    .dropdown-divider
+                                    a.dropdown-item(href='#') Separated link
+                            h6.text-muted.text-normal.text-uppercase.padding-top-2x Dropup Variation
+                            hr.margin-bottom-1x
+                            .btn-group.dropup
+                                button.btn.btn-outline-primary.dropdown-toggle(type='button', data-toggle='dropdown') Primary
+                                .dropdown-menu
+                                    a.dropdown-item(href='#') Action
+                                    a.dropdown-item(href='#') Another Action
+                                    a.dropdown-item(href='#') Something else here
+                                    .dropdown-divider
+                                    a.dropdown-item(href='#') Separated link
+                        .btn-group.dropup
+                                button.btn.btn-outline-primary(type='button') Primary
+                                button.btn.btn-outline-primary.dropdown-toggle.dropdown-toggle-split(type='button', data-toggle='dropdown')
+                                    span.sr-only Toggle Dropdown
+                                .dropdown-menu
+                                    a.dropdown-item(href='#') Action
+                                    a.dropdown-item(href='#') Another Action
+                                    a.dropdown-item(href='#') Something else here
+                                    .dropdown-divider
+                                    a.dropdown-item(href='#') Separated link
