@@ -138,6 +138,8 @@ $('a[href*="#"]')
         }
     });
 
+
+// Ajax form sender
 $('#form-thanks, #form-error').hide();
 $(document).on('submit','#contact-form',function(e){
     e.preventDefault();

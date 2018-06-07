@@ -317,14 +317,20 @@ hr {
   font-size: 1.1rem;
   margin-bottom: 10px; }
 
-.form-group input, .form-group textarea {
+.form-group input, .form-group textarea, .form-group select, .form-control input, .form-control textarea, .form-control select {
   border: 0;
   border-radius: 0;
   -webkit-box-shadow: 0 0 transparent;
   box-shadow: 0 0 transparent;
   background: transparent;
   border-bottom: 1px solid #909090;
-  text-align: center; }
+  text-align: center;
+  font-size: 1.3rem;
+  color: #383838; }
+
+.form-group input[type='file'], .form-control input[type='file'] {
+  border: 0;
+  background: #fff; }
 
 .form-control:focus {
   -webkit-box-shadow: 0 0 transparent;

@@ -1,38 +1,57 @@
-# [GOURMET Theme](https://startbootstrap.com/template-overviews/resume/)
+# [CHEFF Theme](https://)
 
-[**Gourmet Theme**](https://) is a responsive and light-weight theme. It's easy to use, full commented and with a nice documentation. 
- We include only a few plugins. We aim to make a ultra light code to achieve a "zero-scroll-lag" feeling and more important to increase the effectiveness of seo positioning practices.
+[**Cheff Theme**](https://) is a responsive and light-weight theme. Easy to use. <br>
+ We include few plugins, only the necesary to look nice but not getting to complicated. We aim to make an ultra light code to achieve a optimum performance and nice scroll feeling. And more important to increase the effectiveness of seo positioning practices.
 
-## Preview
+## Basic Usage
 
-[![Resume Preview](https://)](https://)
+>You can just edit the HTML and CSS files included in the `dist` folder using any IDE. We recommend write your styles in the `custom-styles.css` file.
 
-**[View Live Preview](https://)**
+## Advanced Usage
 
+>After installation, run `npm install` and then run `gulp` to watch the changes in dist foled.
+We include browsersync in gulp config to see changes in real time when files are saved. Also include plumber and another nice stuff.
+You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
-## Usage
+## Preprocessors
+> * **Pug** for html <br>
+> * **Sass** for css <br>
 
-### Basic Usage
+Templates included!
+## Contact form
+> Fully functional. Sending using ajax. Php logic included in `process.php` file
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+## Plungs Included
+>* Animations <br>
+>**Animate** (https://daneden.github.io/animate.css/)
+>* Showing elements on scroll <br>
+>**Wowjs** (https://wowjs.uk)
+>* Carousel (Slider) <br>
+>**Owl-Carousel-2** (https://owlcarousel2.github.io/OwlCarousel2/)
+>* Parallax <br>
+>**jQuery Parallax** (https://github.com/IanLunn/jQuery-Parallax)
+>* PopOvers <br>
+>**Popper** (https://popper.js.org/)
+>* Sorteable Gallery <br>
+>**Isotope** (https://isotope.metafizzy.co)
+>* View full screen image <br>
+>**Magnific-Popup** (http://dimsemenov.com/plugins/magnific-popup/)
 
-### Advanced Usage
-
-After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+## Next updates
+Soon we will be adding a more complete documentation. We are working on it.
 
 ## Bugs and Issues
 
 Have a bug or an issue with this template? - Contact Us: **dev@vimana.studio**
 
 ## Custom Builds
-You can hire us to create a custom build of our templates or something complete new. Visit [Out site](https://vimana.studio/).
+You can hire us to create a custom build of our templates or something complete new. Visit [Our site](https://vimana.studio/).
 
 ## About Us 
-We are **Vimana Studio**. A team of graphic designers and full-stack developers. We made templates, cms, apps, games and more!!.
+We are [**Vimana Studio**](https://vimana.studio/). A team of graphic designers and full-stack developers. We made templates, cms, apps, games and more!!.
 
 ## Licence
 Our templates are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
-
 
 ## Copyright and License
 Copyright 2018 Vimana Studio. Code released under the [MIT]

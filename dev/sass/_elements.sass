@@ -232,14 +232,20 @@
 
 // Forms
 //-------------------------------------------------
-.form-group
-    input,textarea
+
+.form-group,.form-control 
+    input,textarea,select
         border: 0
         border-radius: 0 
         box-shadow: 0 0 transparent
         background: transparent
         border-bottom: 1px solid #909090
         text-align: center
+        font-size: 1.3rem
+        color: #383838
+    input[type='file']
+        border: 0
+        background: #fff
 
 .form-control:focus
     box-shadow: 0 0 transparent
@@ -260,6 +266,7 @@
         font-weight: 400
         font-size: 2rem
         line-height: 2.5rem
+
 // Elements
 //-----------------------------------------------    
 #go-to-top
