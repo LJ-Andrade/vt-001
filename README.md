@@ -40,7 +40,8 @@ You can view the `gulpfile.js` to see which tasks are included with the dev envi
 
 Templates included!
 ## Contact form
-> Works with ajax. Logic included in `process.php` 
+> Works with ajax. Logic included in `process.php` \
+> Don't forget to add your email in the `$to` variable
 
 ## Plungs Included
 >* Animations \

@@ -4,8 +4,7 @@
     $phone = $_POST['phone'];
     $message = $_POST['message'];
             
-    // $to = '<your@email.com>';
-    $to = 'javzero1@gmail.com';
+    $to = '<your@email.com>';
     // Asunto
     $subject = 'Message from web';
     

@@ -590,7 +590,8 @@ input.line-input {
   border-bottom: 1px solid #ffffff;
   border-left: 1px solid #ffffff;
   -webkit-box-shadow: 0 0 transparent;
-  box-shadow: 0 0 transparent; }
+  box-shadow: 0 0 transparent;
+  color: #fff !important; }
 
 /* overlay at start */
 .mfp-fade.mfp-bg {
