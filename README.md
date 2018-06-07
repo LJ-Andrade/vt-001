@@ -43,7 +43,7 @@ Templates included!
 > Works with ajax. Logic included in `process.php` \
 > Don't forget to add your email in the `$to` variable
 
-## Plungs Included
+## Plugins Included
 >* Animations \
 >**Animate** (https://daneden.github.io/animate.css/)
 >* Showing elements on scroll \
