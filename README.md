@@ -33,37 +33,35 @@ We include a few plugins, only the necessary to look nice, but not getting too c
 >After installation, run `npm install` and then run `gulp` to watch the changes in dist foled.
 We include browsersync in gulp config to see changes in real time when files are saved. Also include plumber and another nice stuff.
 You can view the `gulpfile.js` to see which tasks are included with the dev environment.
-
-## Preprocessors
+## Preprocessors (Dev)
 > * **Pug** for html
 > * **Sass** for css
 
 Templates included!
-## Contact form
-> Works with ajax. Logic included in `process.php` \
-> Don't forget to add your email in the `$to` variable
 
-## Plugins Included
+## Contact form
+> This template contains a working contact form. (Php / Ajax).
+
+## Assets Included | Sources
+>* Bootstrap v4.1.1* (https://getbootstrap.com) 
+>* Icons \
+>**Font Awesome** (https://fontawesome.com)
 >* Animations \
->**Animate** (https://daneden.github.io/animate.css/)
+>**Animate** (https://daneden.github.io/animate.css)
 >* Showing elements on scroll \
 >**Wowjs** (https://wowjs.uk)
 >* Carousel (Slider) \
->**Owl-Carousel-2** (https://owlcarousel2.github.io/OwlCarousel2/)
+>**Owl-Carousel-2** (https://owlcarousel2.github.io/OwlCarousel2)
 >* Parallax \
 >**jQuery Parallax** (https://github.com/IanLunn/jQuery-Parallax)
 >* PopOvers \
->**Popper** (https://popper.js.org/)
+>**Popper** (https://popper.js.org)
 >* Sorteable Gallery \
 >**Isotope** (https://isotope.metafizzy.co)
 >* View full screen image \
->**Magnific-Popup** (http://dimsemenov.com/plugins/magnific-popup/)
-
-## Next updates
-Soon we will be adding a more complete documentation. We are working on it.
+>**Magnific-Popup** (http://dimsemenov.com/plugins/magnific-popup)
 
 ## Bugs and Issues
-
 Have a bug or an issue with this template? - Contact Us: **dev@vimana.studio**
 
 ## Custom Builds

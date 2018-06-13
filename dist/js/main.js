@@ -99,7 +99,6 @@ $(document).ready(function($){
     });
 });
 
-
 // Go to top of page smooth
 $(document).ready(function($){
     $('#go-to-top').hide();
@@ -151,7 +150,7 @@ $('a[href*="#"]')
     });
 
 
-// Ajax form sender
+// Ajax Contact form sender
 $('#form-thanks, #form-error').hide();
 $(document).on('submit','#contact-form',function(e){
     e.preventDefault();
@@ -159,7 +158,7 @@ $(document).on('submit','#contact-form',function(e){
     const form = $(this);
     const successMessage = $('#form-thanks');
     const errorMessage = $('#form-error');
-    const url = "./process.php";
+    const url = "/process.php";
     let data = form.serialize();
 
     $.ajax({

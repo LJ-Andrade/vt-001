@@ -13,5 +13,253 @@ block content
                         .col-lg-3.col-md-4.pull-lg-9.pull-md-8
                             //- SIDEBAR
                             include ../bootstrap-components/sidebar.pug
-                        .col-lg-9.col-md-8.push-lg-3.push-md-4
-                            h1 This are all bootstrap 4 components
+                        .col-lg-9.col-md-8.push-lg-3.push-md-4.content-box
+                            h1.title Bootstrap 4 components
+                            hr
+                            // Alerts
+                            a#Alerts.anchor
+                            h3 Alerts
+                            p.sub-title
+                                a(href="https://getbootstrap.com/docs/4.1/components/alerts/" target="_blank") Go to official documentation
+                            .alert.alert-primary(role='alert')
+                                | A simple primary alert—check it out!
+                            .alert.alert-secondary(role='alert')
+                                | A simple secondary alert—check it out!
+                            .alert.alert-success(role='alert')
+                                | A simple success alert—check it out!
+                            .alert.alert-danger(role='alert')
+                                | A simple danger alert—check it out!
+                            .alert.alert-warning(role='alert')
+                                | A simple warning alert—check it out!
+                            .alert.alert-info(role='alert')
+                                | A simple info alert—check it out!
+                            .alert.alert-light(role='alert')
+                                | A simple light alert—check it out!
+                            .alert.alert-dark(role='alert')
+                                | A simple dark alert—check it out!
+                            hr
+                            // Badges
+                            a#Badges.anchor
+                            h3 Badges
+                            p.sub-title
+                                a(href="https://getbootstrap.com/docs/4.1/components/badge/" target="_blank") Go to official documentation
+                            h1
+                                | Example heading 
+                                span.badge.badge-secondary New
+                            h2
+                                | Example heading 
+                                span.badge.badge-secondary New
+                            h3
+                                | Example heading 
+                                span.badge.badge-secondary New
+                            h4
+                                | Example heading 
+                                span.badge.badge-secondary New
+                            h5
+                                | Example heading 
+                                span.badge.badge-secondary New
+                            h6
+                                | Example heading 
+                                span.badge.badge-secondary New
+                            br
+                            p.muted Badges can be used as part of links or buttons to provide a counter.
+                            button.btn.btn-primary(type='button')
+                                | Notifications 
+                                span.badge.badge-light 4
+                            br 
+                            br 
+                            p.muted 
+                                strong Contextual variations:
+                            p.muted 
+                                | Add any of the below mentioned modifier classes to change the appearance of a badge.
+                            .elem-example
+                                span.badge.badge-primary Primary
+                                span.badge.badge-secondary Secondary
+                                span.badge.badge-success Success
+                                span.badge.badge-danger Danger
+                                span.badge.badge-warning Warning
+                                span.badge.badge-info Info
+                                span.badge.badge-light Light
+                                span.badge.badge-dark Dark
+                            br  
+                            p.muted
+                                strong Pill badges:
+                            p.muted
+                                | the .badge-pill modifier class to make badges more rounded (with a larger border-radius and additional horizontal padding). Useful if you miss the badges from v3.
+                            .elem-example
+                                span.badge.badge-pill.badge-primary Primary
+                                span.badge.badge-pill.badge-secondary Secondary
+                                span.badge.badge-pill.badge-success Success
+                                span.badge.badge-pill.badge-danger Danger
+                                span.badge.badge-pill.badge-warning Warning
+                                span.badge.badge-pill.badge-info Info
+                                span.badge.badge-pill.badge-light Light
+                                span.badge.badge-pill.badge-dark Dark
+                            br  
+                            p.muted
+                                strong Links
+                            p.muted
+                                Using the contextual .badge-* classes on an #{"<a>"} element quickly provide actionable badges with hover and focus states.
+                            .elem-example
+                                a.badge.badge-primary(href='#') Primary
+                                a.badge.badge-secondary(href='#') Secondary
+                                a.badge.badge-success(href='#') Success
+                                a.badge.badge-danger(href='#') Danger
+                                a.badge.badge-warning(href='#') Warning
+                                a.badge.badge-info(href='#') Info
+                                a.badge.badge-light(href='#') Light
+                                a.badge.badge-dark(href='#') Dark
+                            hr
+                            // Breadcrum
+                            a#Breadcrums.anchor
+                            h3 Breadcrum
+                            p.sub-title
+                                a(href="https://getbootstrap.com/docs/4.1/components/breadcrumb/" target="_blank") Go to official documentation
+                            p.sub-title Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.
+
+                            nav(aria-label='breadcrumb')
+                                ol.breadcrumb
+                                    li.breadcrumb-item.active(aria-current='page') Home
+                            nav(aria-label='breadcrumb')
+                                ol.breadcrumb
+                                    li.breadcrumb-item
+                                        a(href='#') Home
+                                    li.breadcrumb-item.active(aria-current='page') Library
+                            nav(aria-label='breadcrumb')
+                                ol.breadcrumb
+                                    li.breadcrumb-item
+                                        a(href='#') Home
+                                    li.breadcrumb-item
+                                        a(href='#') Library
+                                    li.breadcrumb-item.active(aria-current='page') Data
+                            hr
+                            // Buttons
+                            a#Buttons.anchor
+                            h3 Buttons
+                            p.sub-title
+                                a(href="https://getbootstrap.com/docs/4.1/components/buttons/" target="_blank") Go to official documentation
+                            .elem-example
+                                button.btn.btn-primary(type='button') Primary
+                                button.btn.btn-secondary(type='button') Secondary
+                                button.btn.btn-success(type='button') Success
+                                button.btn.btn-danger(type='button') Danger
+                                button.btn.btn-warning(type='button') Warning
+                                button.btn.btn-info(type='button') Info
+                                button.btn.btn-light(type='button') Light
+                                button.btn.btn-dark(type='button') Dark
+                                button.btn.btn-link(type='button') Link
+                            .elem-example
+                                p.muted Large Buttons
+                                button.btn.btn-primary.btn-lg(type='button') Large button
+                                button.btn.btn-secondary.btn-lg(type='button') Large button
+                            .elem-example
+                                p.muted Small Buttons
+                                button.btn.btn-primary.btn-sm(type='button') Small button
+                                button.btn.btn-secondary.btn-sm(type='button') Small button
+                            .elem-example
+                                p.muted Checkbox and radio buttons
+                            .btn-group.btn-group-toggle(data-toggle='buttons')
+                                label.btn.btn-secondary.active
+                                    input#option1(type='radio', name='options', autocomplete='off', checked='')
+                                    |  Active
+                                label.btn.btn-secondary
+                                    input#option2(type='radio', name='options', autocomplete='off')
+                                    |  Radio
+                                label.btn.btn-secondary
+                                    input#option3(type='radio', name='options', autocomplete='off')
+                                    |  Radio
+                            hr
+                            // Buttons Group
+                            a#ButtonsGroup.anchor
+                            h3 Buttons Group
+                            p.sub-title
+                                a(href="https://getbootstrap.com/docs/4.1/components/button-group/" target="_blank") Go to official documentation
+                            .elem-example
+                                .btn-group(role='group', aria-label='Basic example')
+                                    button.btn.btn-secondary(type='button') Left
+                                    button.btn.btn-secondary(type='button') Middle
+                                    button.btn.btn-secondary(type='button') Right
+
+                            p.sub-title 
+                                strong Button toolbar
+                            p.sub-title Combine sets of button groups into button toolbars for more complex components. Use utility classes as needed to space out groups, buttons, and more.
+
+                            .btn-toolbar(role='toolbar', aria-label='Toolbar with button groups')
+                                .btn-group.mr-2(role='group', aria-label='First group')
+                                    button.btn.btn-secondary(type='button') 1
+                                    button.btn.btn-secondary(type='button') 2
+                                    button.btn.btn-secondary(type='button') 3
+                                    button.btn.btn-secondary(type='button') 4
+                                .btn-group.mr-2(role='group', aria-label='Second group')
+                                    button.btn.btn-secondary(type='button') 5
+                                    button.btn.btn-secondary(type='button') 6
+                                    button.btn.btn-secondary(type='button') 7
+                                .btn-group(role='group', aria-label='Third group')
+                                    button.btn.btn-secondary(type='button') 8
+                            br
+                            p.sub-title 
+                                strong Nesting
+                            p.sub-title Place a .btn-group within another .btn-group when you want dropdown menus mixed with a series of buttons.
+                            .btn-group(role='group', aria-label='Button group with nested dropdown')
+                                button.btn.btn-secondary(type='button') 1
+                                button.btn.btn-secondary(type='button') 2
+                                .btn-group(role='group')
+                                    button#btnGroupDrop1.btn.btn-secondary.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+                                        | Dropdown
+                                    .dropdown-menu(aria-labelledby='btnGroupDrop1')
+                                        a.dropdown-item(href='#') Dropdown link
+                                        a.dropdown-item(href='#') Dropdown link
+                            hr
+                            // Cards
+                            a#Cards.anchor
+                            h3 Cards
+                            p.sub-title
+                                a(href="/dist/img/gallery1.jpg" target="_blank") Go to official documentation
+                            .row
+                                .col-md-4
+                                    .card
+                                        img.card-img-top(src='/img/gallery1.jpg', alt='Card image cap')
+                                        .card-body
+                                            h5.card-title Card title
+                                            p.card-text
+                                                | Some quick example text to build on the card title and make up the bulk of the card's content.
+                                        ul.list-group.list-group-flush
+                                            li.list-group-item Cras justo odio
+                                            li.list-group-item Dapibus ac facilisis in
+                                            li.list-group-item Vestibulum at eros
+                                        .card-body
+                                            a.card-link(href='#') Card link
+                                            a.card-link(href='#') Another link
+                                .col-md-4
+                                    .card
+                                        img.card-img-top(src='/img/gallery1.jpg', alt='Card image cap')
+                                        .card-body
+                                            h5.card-title Card title
+                                            p.card-text
+                                                | Some quick example text to build on the card title and make up the bulk of the card's content.
+                                            a.btn.btn-primary(href='#') Go somewhere
+
+                            hr
+                            // Forms
+                            a#Forms.anchor
+                            h3 Forms
+                            p.sub-title
+                                a(href="https://getbootstrap.com/docs/4.1/components/forms/" target="_blank") Go to official documentation
+                            .row
+                                .col-md-8
+                                    form
+                                        .form-group
+                                            label(for='exampleInputEmail1') Email address
+                                            input#exampleInputEmail1.form-control(type='email', aria-describedby='emailHelp', placeholder='Enter email')
+                                            small#emailHelp.form-text.text-muted We'll never share your email with anyone else.
+                                        .form-group
+                                            label(for='exampleInputPassword1') Password
+                                            input#exampleInputPassword1.form-control(type='password', placeholder='Password')
+                                        .form-group
+                                            label(for='exampleFormControlTextarea1') Example textarea
+                                            textarea#exampleFormControlTextarea1.form-control(rows='3')
+                                        .form-group.form-check
+                                            input#exampleCheck1.form-check-input(type='checkbox')
+                                            label.form-check-label(for='exampleCheck1') Check me out
+                                        button.btn.btn-primary(type='submit') Submit
+
