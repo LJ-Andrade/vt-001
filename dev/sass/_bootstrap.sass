@@ -1,0 +1,163 @@
+// Alerts
+//-------------------------------------------------
+
+
+// Cards
+//-------------------------------------------------
+
+.card
+    padding: 10px
+    border: 0
+    background-color: transparent
+    padding: 0
+    .card-img-top
+        transition: all .5s ease 0s
+        &:hover
+            cursor: pointer
+    .card-body
+        border: 0
+        background-color: #ffffff
+        text-align: center
+        .card-link
+            background: #cccccc
+        
+        .card-list
+            li
+                border-bottom: 1px solid #ccc
+                text-align: center
+                padding: 10px 5px
+                    
+// Buttons
+//-------------------------------------------------
+
+.btn-primary
+    color: #000000
+    background: #ffffff
+    border: 1px solid #000000
+    box-shadow: 3px 3px #000000
+    border-radius: 0
+    font-size: 1.2rem
+    padding: 1px 30px
+    &:hover,&:focus,&:active
+        color: #000000
+        background: #f9f9f9
+        border: 1px solid #000000
+        box-shadow: 1px 1px #000000
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle
+    background-color: #000000
+    color: #ffffff
+    border: 1px solid #ffffff
+
+.btn-secondary
+    color: #ffffff
+    background: #000000
+    border: 1px solid #000000
+    box-shadow: 3px 3px #000000
+    border-radius: 0
+    font-size: 1.2rem
+    padding: 1px 30px
+    &:hover,&:focus,&:active
+        color: #000000
+        background: #f9f9f9
+        border: 1px solid #000000
+        box-shadow: 1px 1px #000000
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle
+    background-color: #ffffff
+    color: #000000
+    border: 1px solid #000000
+
+
+// Badges -
+//-------------------------------------------------
+.badge
+    padding: 1em 1em
+    font-size: 85%
+    border-radius: 0
+
+.badge-primary
+    color: #fff
+    background-color: $primary
+.badge-secondary 
+    color: #fff
+    background-color: $secondary
+.badge-success,.btn-success,.alert-success
+    color: #fff
+    background-color: $success
+.badge-danger 
+    color: #fff
+    background-color: $danger
+.badge-warning 
+    color: #fff
+    background-color: $warning
+.badge-info 
+    color: #fff
+    background-color: $info
+.badge-light 
+    color: #fff
+    background-color: $light
+.badge-dark 
+    color: #fff
+    background-color: $dark
+
+
+// Forms
+//-------------------------------------------------
+.input-group
+    input,.input-group-text
+        border-radius: 0
+
+input.line-input
+    background: 0
+    border: 0
+    border-bottom: 1px solid #ffffff
+    border-left: 1px solid #ffffff
+    box-shadow: 0 0 transparent
+    color: #fff !important
+
+.form-group
+	color: $strong
+	input, textarea
+		border-bottom: 1px solid $strong
+
+// Placeholder
+//-------------------------------------------------
+$placeholder: $medium
+.form-control::-webkit-input-placeholder
+	color: $placeholder
+.form-control:-moz-placeholder
+	color: $placeholder
+.form-control::-moz-placeholder
+	color: $placeholder
+.form-control:-ms-input-placeholder
+	color: $placeholder
+.form-control::-ms-input-placeholder
+	color: $placeholder
+
+
+
+
+
+
+
+// Breadcrum
+//-------------------------------------------------
+.breadcrumb
+    border-radius: 0
+    background-color: $basic
+    border-bottom: 1px solid $medium
+    .breadcrumb-item
+        a
+            color: $medium
+        &:before
+            content: "• "
+            color: $medium
+    .active
+        color: $strong
+        &:before
+            content: "• "
+            color: $medium
+
+
+

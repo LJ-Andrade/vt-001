@@ -216,21 +216,24 @@ block content
                             p.sub-title
                                 a(href="/dist/img/gallery1.jpg" target="_blank") Go to official documentation
                             .row
-                                .col-md-4
+                                .col-md-6.col-sm-6.col-xs-12
                                     .card
                                         img.card-img-top(src='/img/gallery1.jpg', alt='Card image cap')
+                                        // CARD START
                                         .card-body
                                             h5.card-title Card title
                                             p.card-text
                                                 | Some quick example text to build on the card title and make up the bulk of the card's content.
-                                        ul.list-group.list-group-flush
-                                            li.list-group-item Cras justo odio
-                                            li.list-group-item Dapibus ac facilisis in
-                                            li.list-group-item Vestibulum at eros
+                                            ul.card-list
+                                                li Cras justo odio
+                                                li Dapibus ac facilisis in
+                                                li Vestibulum at eros
                                         .card-body
-                                            a.card-link(href='#') Card link
-                                            a.card-link(href='#') Another link
-                                .col-md-4
+                                            a.btn.btn-primary(href='#') Go somewhere
+                                            a.btn.btn-primary(href='#') Go somewhere
+                                        // CARD END
+                                .col-md-6.col-sm-6.col-xs-12
+                                    // CARD START
                                     .card
                                         img.card-img-top(src='/img/gallery1.jpg', alt='Card image cap')
                                         .card-body
@@ -238,6 +241,7 @@ block content
                                             p.card-text
                                                 | Some quick example text to build on the card title and make up the bulk of the card's content.
                                             a.btn.btn-primary(href='#') Go somewhere
+                                    // CARD END
 
                             hr
                             // Forms
