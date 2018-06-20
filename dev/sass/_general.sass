@@ -89,6 +89,73 @@ ul
 hr
     width: 100%
 
+// Theme Docs
+.theme-docs-wrapper
+	.panel
+		margin-bottom: 40px
+		.panel-body
+			padding: 20px
+			border: 2px solid #f5f7f9
+			border-bottom: 0
+		.panel-footer
+			background-color: #f5f7f9
+			pre
+				padding: 20px
+				margin: 0
+				border: none
+		
+	.h5
+		line-height: 29px
+
+	.btn-pill,
+	.btn-shadow
+		outline: none
+
+	$code-main:  #2f6f9f
+	
+	$code-color: $code-main
+	$code-hljs-tag: $code-main
+	$code-name: $code-main
+	$code-attr: #904242
+	$code-string: #8476d0
+	$code-keyword: #069
+	$code-number: #f60
+
+	pre
+		padding: 10px
+		background-color: #f5f7f9
+		code
+			display: block
+			&.html
+				> *
+					color: $code-color
+					line-height: 20px
+
+				[class*=hljs-tag]
+					color: $code-hljs-tag
+
+				[class*=hljs-name]
+					color: $code-name
+
+				[class*=hljs-attr]
+					color: $code-attr
+
+				[class*=hljs-string]
+					color: $code-string
+
+			&.css
+				color: $code-color
+				> *
+					color: $code-color
+					line-height: 20px
+
+				[class*=hljs-keyword]
+					color: $code-keyword
+
+				[class*=hljs-number]
+					color: $code-number
+
+
 // Helpers
 //-------------------------------------------------
 .padding-0

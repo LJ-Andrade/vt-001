@@ -8,7 +8,7 @@
                 ['badges.html', 'Badges', '#Badges'],
                 ['breadcrums.html', 'Breadcrums', '#Breadcrums'],
                 ['buttons.html', 'Buttons', '#Buttons'],
-                ['buttons-group.html', 'ButtonsGroup', '#ButtonsGroup'],
+                ['buttons-group.html', 'Buttons Group', '#ButtonsGroup'],
                 ['cards.html', 'Cards', '#Cards'],
                 //- ['carousel.html', 'Carousel', 'Accordion'],
                 //- ['countdown.html', 'Countdown', 'Accordion'],
@@ -34,4 +34,4 @@
             ];
         //- Render Links
         each link in links
-            a.list-group-item.list-group-item-action(class={active: currentUrl === link[0]} href=link[2]) #{link[1]}
+            a.list-group-item.list-group-item-action(class={active: currentUrl === link[0]} href=link[0]) #{link[1]}

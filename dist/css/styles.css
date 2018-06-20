@@ -83,6 +83,52 @@ ul {
 hr {
   width: 100%; }
 
+.theme-docs-wrapper .panel {
+  margin-bottom: 40px; }
+  .theme-docs-wrapper .panel .panel-body {
+    padding: 20px;
+    border: 2px solid #f5f7f9;
+    border-bottom: 0; }
+  .theme-docs-wrapper .panel .panel-footer {
+    background-color: #f5f7f9; }
+    .theme-docs-wrapper .panel .panel-footer pre {
+      padding: 20px;
+      margin: 0;
+      border: none; }
+
+.theme-docs-wrapper .h5 {
+  line-height: 29px; }
+
+.theme-docs-wrapper .btn-pill,
+.theme-docs-wrapper .btn-shadow {
+  outline: none; }
+
+.theme-docs-wrapper pre {
+  padding: 10px;
+  background-color: #f5f7f9; }
+  .theme-docs-wrapper pre code {
+    display: block; }
+    .theme-docs-wrapper pre code.html > * {
+      color: #2f6f9f;
+      line-height: 20px; }
+    .theme-docs-wrapper pre code.html [class*=hljs-tag] {
+      color: #2f6f9f; }
+    .theme-docs-wrapper pre code.html [class*=hljs-name] {
+      color: #2f6f9f; }
+    .theme-docs-wrapper pre code.html [class*=hljs-attr] {
+      color: #904242; }
+    .theme-docs-wrapper pre code.html [class*=hljs-string] {
+      color: #8476d0; }
+    .theme-docs-wrapper pre code.css {
+      color: #2f6f9f; }
+      .theme-docs-wrapper pre code.css > * {
+        color: #2f6f9f;
+        line-height: 20px; }
+      .theme-docs-wrapper pre code.css [class*=hljs-keyword] {
+        color: #069; }
+      .theme-docs-wrapper pre code.css [class*=hljs-number] {
+        color: #f60; }
+
 .padding-0 {
   padding: 0; }
 
