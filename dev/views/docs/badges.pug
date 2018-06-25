@@ -2,20 +2,21 @@ extends /master.pug
 block content
 	- var currentUrl = 'badges.html'
 	section
-		.container
+		.container-fluid
 			.row
 				.col-md-12
 					.row
-						.col-lg-3.col-md-4.pull-lg-9.pull-md-8
+						.col-lg-2.col-sm-3.pull-lg-9.pull-md-8
 							//- SIDEBAR
-							include ../bootstrap-components/sidebar.pug
-						.col-lg-9.col-md-8.push-lg-3.push-md-4.theme-docs-wrapper
+							include ../includes/sidebar.pug
+						.col-lg-10.col-sm-9.push-lg-3.push-md-4.theme-docs.code-no-bs
 							h1 Bootstrap 4 components
 							hr
-							// Alerts
-							a#Badges.anchor
-							h3 Badges
-							h5
+							// Badges
+							h4 Badges
+								small 
+									a(href='https://getbootstrap.com/docs/4.1/components/badge/' target='_blank') (Official docs)
+							p 
 								| Default badges
 							.panel
 								.panel-body

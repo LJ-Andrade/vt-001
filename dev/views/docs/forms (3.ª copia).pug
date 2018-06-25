@@ -2,20 +2,21 @@ extends /master.pug
 block content
 	- var currentUrl = 'forms.html'
 	section
-		.container
+		.container-fluid
 			.row
 				.col-md-12
 					.row
-						.col-lg-3.col-md-4.pull-lg-9.pull-md-8
+						.col-lg-2.col-sm-3.pull-lg-9.pull-md-8
 							//- SIDEBAR
-							include ../bootstrap-components/sidebar.pug
-						.col-lg-9.col-md-8.push-lg-3.push-md-4.theme-docs-wrapper
+							include ../includes/sidebar.pug
+						.col-lg-10.col-sm-9.push-lg-3.push-md-4.theme-docs.code-no-bs
 							h1 Bootstrap 4 components
 							hr
-							// Alerts
-							a#Badges.anchor
-							h3 Forms
-							h5 Form Controls
+							// Forms
+							h4 Form
+								small 
+									a(href='https://getbootstrap.com/docs/4.1/components/forms/' target='_blank') (Official docs)
+							p Form Controls
 							
 							.panel
 								.panel-body
@@ -193,11 +194,11 @@ block content
 										input#customCheck1.custom-control-input(type='checkbox')
 										label.custom-control-label(for='customCheck1') Check this custom checkbox
 									.custom-control.custom-checkbox
-										input#customCheck1.custom-control-input(type='checkbox')
-										label.custom-control-label(for='customCheck1') Check this custom checkbox
+										input#customCheck2.custom-control-input(type='checkbox')
+										label.custom-control-label(for='customCheck2') Check this custom checkbox
 									.custom-control.custom-checkbox
-										input#customCheck1.custom-control-input(type='checkbox')
-										label.custom-control-label(for='customCheck1') Check this custom checkbox
+										input#customCheck3.custom-control-input(type='checkbox')
+										label.custom-control-label(for='customCheck3') Check this custom checkbox
 									.custom-control.custom-radio.mt-3
 										input#customRadio1.custom-control-input(type='radio', name='customRadio')
 										label.custom-control-label(for='customRadio1') Toggle this custom radio
